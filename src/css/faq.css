@@ -14,16 +14,6 @@
   text-align: center;
 }
 
-.faq-title::before {
-  content: '';
-  width: 300px;
-  height: 20px;
-  background-image: url('../img/faq-decoration.svg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
 .faq-subtext {
   font-size: 18px;
   line-height: 1.5;
