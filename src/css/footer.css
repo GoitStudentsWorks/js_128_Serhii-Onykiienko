@@ -1,90 +1,104 @@
 .footer {
   padding: 20px 0;
 }
-.wrapper {
+.footer-wrapper {
   display: flex;
   flex-direction: column;
   background: #faf7e6;
   border: 2px solid #000;
   border-radius: 24px;
   align-items: center;
+  
 }
 @media only screen and (min-width: 768px) {
-  .wrapper {
+  .footer-wrapper {
     flex-direction: row;
   }
 }
-.text {
+.footer-text {
   font-size: 14px;
   text-align: center;
 }
-.logo-text-wrapper {
-  margin: 48px 20px 0px 20px;
+.footer-logo-text-wrapper {
+  margin: 0px 20px;
+  padding-top: 48px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 12px;
 }
 @media only screen and (min-width: 768px) {
-  .logo-text-wrapper {
-    margin-top: 48px;
+  .footer-logo-text-wrapper {
     margin-left: 48px;
     margin-bottom: auto;
     margin-right: auto;
   }
 }
-.menu-text {
+.footer-menu-text {
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 16px;
 }
-.links {
+.footer-links {
   font-size: 16px;
-  margin-left: 12px;
+  gap: 12px;
+  display: flex;
 }
-.ul {
+.footer-ul-menu {
   display: flex;
   gap: 32px;
   flex-direction: column;
   align-items: center;
 }
 @media only screen and (min-width: 768px) {
-  .ul {
+  .footer-ul-menu {
     align-items: baseline;
   }
 }
-.nav {
+.footer-ul-contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media only screen and (min-width: 768px) {
+  .footer-ul-contacts {
+    align-items: baseline;
+  }
+}
+.footer-contacts-links {
+  padding: 8px 0;
+}
+.footer-nav {
  margin: 24px 20px 40px 20px;
  display: flex;
  flex-direction: column;
  align-items: center;
 }
 @media only screen and (min-width: 768px) {
-  .nav {
-    margin-top: 48px;
-    margin-left: 128px;
-    margin-bottom: 48px;
+  .footer-nav {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 48px;
     margin-right: 40px;
+    padding-bottom: 48px;
+    margin-left: 128px;
     align-items: baseline;
   }
 }
-.contacts {
- margin: 0 20px 48px 20px;
+.footer-contacts {
+ margin: 0 20px;
+ padding-bottom: 48px;
  display: flex;
  flex-direction: column;
  align-items: center;
 }
 @media only screen and (min-width: 768px) {
-  .contacts {
-    margin-top: 48px;
+  .footer-contacts {
+    padding-top: 48px;
     margin-left: 40px;
     margin-bottom: auto;
     margin-right: 48px;
+    padding-bottom: 0;
     align-items: baseline;
   }
-}
-.icon-wrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
 }
