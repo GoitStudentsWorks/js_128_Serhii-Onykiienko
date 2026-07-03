@@ -6,3 +6,4 @@ import './js/faq';
 import './js/contacts';
 import './js/footer';
 import './js/success-modal';
+import './js/api';
