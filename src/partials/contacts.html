@@ -1,7 +1,10 @@
 <section class="contact" id="contact">
   <div class="container contact__container">
     <div class="contact__info">
-      <h2 class="contact__title decor">Let's Tell Your Story</h2>
+      <svg class="contact-list__icon">
+        <use href="../img/Group.svg"></use>
+      </svg>
+      <h2 class="contact__title">Let's Tell Your Story</h2>
 
       <p class="contact__text">
         I can't wait to hear more about your wedding! Tell me about your plans,
@@ -11,7 +14,7 @@
       <ul class="contact-list">
         <li class="contact-list__item">
           <svg class="contact-list__icon">
-            <use href="./images/icons.svg#icon-mail"></use>
+            <use href="../img/mail.svg"></use>
           </svg>
 
           <a href="mailto:info@mariakovalenko.com" class="contact-list__link">
@@ -21,7 +24,7 @@
 
         <li class="contact-list__item">
           <svg class="contact-list__icon">
-            <use href="./images/icons.svg#icon-phone"></use>
+            <use href="../img/call.svg"></use>
           </svg>
 
           <a href="tel:+405551234567" class="contact-list__link">
@@ -31,7 +34,7 @@
 
         <li class="contact-list__item">
           <svg class="contact-list__icon">
-            <use href="./images/icons.svg#icon-location"></use>
+            <use href="../img/location_on.svg"></use>
           </svg>
 
           <address class="contact-list__address">
@@ -89,19 +92,3 @@
     </div>
   </div>
 </section>
-
-<!-- SUCCESS MODAL -->
-
-<div class="backdrop is-hidden" id="successModal">
-  <div class="modal">
-    <button class="modal__close" type="button" id="closeModal">×</button>
-
-    <h3 class="modal__title">Thank you!</h3>
-
-    <p class="modal__text">
-      Your application has been successfully sent. We will contact you shortly.
-    </p>
-
-    <button class="modal__btn" type="button" id="modalBtn">Close</button>
-  </div>
-</div>
