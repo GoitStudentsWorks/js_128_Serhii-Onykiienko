@@ -105,7 +105,7 @@
 
 .mobile-menu-close:hover,
 .mobile-menu-close:focus-visible {
-  transform: rotate(90deg);
+  transform: scale(1.3);
 }
 
 .mobile-menu-nav {

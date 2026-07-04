@@ -14,12 +14,20 @@ function openMenu() {
 }
 
 function closeMenu() {
+  refs.burgerBtn.focus();
+
   refs.mobileMenu.classList.remove('is-open');
   document.body.classList.remove('no-scroll');
   refs.burgerBtn.setAttribute('aria-expanded', 'false');
   refs.mobileMenu.setAttribute('aria-hidden', 'true');
-  refs.closeBtn.focus();
 }
 
 refs.burgerBtn.addEventListener('click', openMenu);
 refs.closeBtn.addEventListener('click', closeMenu);
+
+// ----Close the menu when clicking a navigation item
+refs.mobileMenuLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    closeMenu();
+  });
+});
