@@ -31,3 +31,10 @@ refs.mobileMenuLinks.forEach(link => {
     closeMenu();
   });
 });
+
+// ----Close the menu on Escape key press
+document.addEventListener('keydown', event => {
+  if (event.key === 'Escape' && refs.mobileMenu.classList.contains('is-open')) {
+    closeMenu();
+  }
+});
