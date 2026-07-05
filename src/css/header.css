@@ -1,3 +1,7 @@
+html {
+  scrollbar-gutter: stable;
+}
+
 .header {
   position: sticky;
   background-color: #fbf9f1;
@@ -35,6 +39,14 @@
   cursor: pointer;
   padding: 20px 0;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-burger {
+  transition: transform 0.2s ease;
+}
+
+.header-burger:hover {
+  transform: scale(1.1);
 }
 
 .header-burger:focus-visible {
