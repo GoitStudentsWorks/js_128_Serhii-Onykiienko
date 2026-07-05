@@ -95,6 +95,10 @@
     flex: 1;
     max-width: none;
   }
+
+  .benefits-article-title {
+    min-height: 90px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -110,5 +114,9 @@
 
   .benefits-list {
     gap: 175px;
+  }
+
+  .benefits-article-title {
+    min-height: 60px;
   }
 }
