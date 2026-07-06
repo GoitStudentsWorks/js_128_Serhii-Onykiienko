@@ -10,15 +10,9 @@ let progresslabel = document.querySelector(".progress-label");
 let progressBar = document.querySelector(".loading");
 let showMore = document.querySelector(".show-more");
 let loader = document.querySelector('.loader');
-let btnUp = document.querySelector(".btn-up");
-let btnDown = document.querySelector(".btn-down");
-let btnTop = document.querySelector(".btn-top");
-let btnBottom = document.querySelector(".btn-bottom");
 
 btnList.addEventListener("click", handleCategoryBtn);
 showMore.addEventListener("click", handleShowMore);
-//btnUp.addEventListener("click", scrollUp);
-//btnDown.addEventListener("click", scrollDown);
 
 
 let resCategory = null;
@@ -31,15 +25,6 @@ let currentPage = 0;
 let prevLimit = 9;
 let moreLimit = 3;
 let activeBtnState = false;
-
-let coords = {
-    top: 0,
-    bottom: 0,
-    left: 0,
-    right: 0,
-    width: 0,
-    height: 0,
-}
 
 activeBtn = btnList.children[0].children[0];
 activeBtn.style.border = "2px solid black";
@@ -87,19 +72,11 @@ function clearGallery() {
 function hideProgress() {                        // скрываем прогрессбар
   progresslabel.style.visibility = 'hidden';
   progressBar.style.visibility = 'hidden';
-//  btnUp.style.visibility = 'hidden';
-//  btnDown.style.visibility = 'hidden';
-//  btnTop.style.visibility = 'hidden';
-//  btnBottom.style.visibility = 'hidden';  
 } 
 
 function showProgress() {                        // делаем прогрессбар видимым
   progresslabel.style.visibility = 'visible';
   progressBar.style.visibility = 'visible';
-//  btnUp.style.visibility = 'visible';
-//  btnDown.style.visibility = 'visible';
-//  btnTop.style.visibility = 'visible';
-// btnBottom.style.visibility = 'visible'; 
   activeBtnState = true; 
 }
 
@@ -217,21 +194,5 @@ async function handleShowMore() {
     hideShowMore();
 //    showLoader();
     await createInitialGallery(currentIndex,Math.min(totalPhotos-loadedPhotos,moreLimit));
-}
-
-function scrollUp() {
-  coords = gallery.firstElementChild.getBoundingClientRect();
-  window.scrollBy({
-    top: -coords.height * 2,
-    behavior: 'smooth',
-  });
-}
-
-function scrollDown() {
-  coords = gallery.firstElementChild.getBoundingClientRect();
-  window.scrollBy({
-    top: coords.height * 2,
-    behavior: 'smooth',
-  });
 }
 
