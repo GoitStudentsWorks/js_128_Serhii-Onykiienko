@@ -9,18 +9,11 @@
   align-items: center;
 }
 
-.benefits-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-
 .benefits-title {
   font-size: 28px;
   max-width: 335px;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 .benefits-list {
@@ -75,13 +68,10 @@
     padding-bottom: 64px;
   }
 
-  .benefits-header {
-    margin-bottom: 64px;
-  }
-
   .benefits-title {
     font-size: 28px;
     max-width: 671px;
+    margin-bottom: 64px;
   }
 
   .benefits-list {
