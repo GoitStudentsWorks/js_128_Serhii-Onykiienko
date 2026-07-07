@@ -1,0 +1,41 @@
+.scroll-up {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 0.25s ease, opacity 0.25s ease,
+    visibility 0.25s ease;
+}
+
+.scroll-up:hover,
+.scroll-up:focus {
+  background-color: #e6d357;
+}
+
+.scroll-up__icon {
+  transform: rotate(90deg);
+}
+
+.scroll-up--hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+@media screen and (min-width: 768px) {
+  .scroll-up {
+    right: 32px;
+    bottom: 32px;
+    width: 56px;
+    height: 56px;
+  }
+}
