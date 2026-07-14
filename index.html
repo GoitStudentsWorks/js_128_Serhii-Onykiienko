@@ -1,0 +1,697 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/js_128_Serhii-Onykiienko/assets/favicon-BPaCBc1q.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project JavaScript</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant:wght@500&family=Mulish:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="/js_128_Serhii-Onykiienko/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/js_128_Serhii-Onykiienko/assets/vendor-BJAQeop3.js">
+    <link rel="stylesheet" crossorigin href="/js_128_Serhii-Onykiienko/assets/vendor-BZme-2De.css">
+    <link rel="stylesheet" crossorigin href="/js_128_Serhii-Onykiienko/assets/index-BEhn6RRN.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="container header-container">
+    <a class="header-logo" href="./index.html" aria-label="Home">
+      <svg
+        class="header-logo__icon"
+        width="69.5"
+        height="61"
+        aria-hidden="true"
+      >
+        <use href="/js_128_Serhii-Onykiienko/assets/sprite-CGGGJTVo.svg#icon-company-logo"></use>
+      </svg>
+      <span class="visually-hidden">Maria Kovalenko Photography</span>
+    </a>
+
+    <!-- DESKTOP NAV -->
+    <nav class="header-nav" aria-label="Main navigation">
+      <ul class="header-list">
+        <li class="header-item">
+          <a class="header-link" href="#about">About Me</a>
+        </li>
+        <li class="header-item">
+          <a class="header-link" href="#benefits">Benefits</a>
+        </li>
+        <li class="header-item">
+          <a class="header-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="header-item">
+          <a class="header-link" href="#faq">FAQ</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- DESKTOP CTA -->
+    <a class="header-btn btn" href="#contacts">Book a Session</a>
+
+    <!-- BURGER (mobile only) -->
+    <button
+      class="header-burger"
+      type="button"
+      aria-label="Open menu"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+    >
+      <svg class="header-icon" width="24" height="24" aria-hidden="true">
+        <use href="/js_128_Serhii-Onykiienko/assets/sprite-CGGGJTVo.svg#icon-burger"></use>
+      </svg>
+    </button>
+  </div>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <div class="mobile-menu-container container">
+      <div class="mobile-menu-top">
+        <a class="mobile-menu-logo" href="./index.html" aria-label="Home">
+          <svg
+            class="mobile-menu-logo__icon"
+            width="69.5"
+            height="61"
+            aria-hidden="true"
+          >
+            <use href="/js_128_Serhii-Onykiienko/assets/sprite-CGGGJTVo.svg#icon-company-logo"></use>
+          </svg>
+          <span class="visually-hidden">Maria Kovalenko Photography</span>
+        </a>
+
+        <button class="mobile-menu-close" type="button" aria-label="Close menu">
+          <svg width="24" height="24" aria-hidden="true">
+            <use href="/js_128_Serhii-Onykiienko/assets/sprite-CGGGJTVo.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+
+      <nav class="mobile-menu-nav" aria-label="Mobile navigation">
+        <ul class="mobile-menu-list">
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link" href="#about">About Me</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link" href="#benefits">Benefits</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link" href="#faq">FAQ</a>
+          </li>
+        </ul>
+      </nav>
+
+      <a class="mobile-menu-btn btn" href="#contacts">Book a Session</a>
+    </div>
+  </div>
+</header>
+
+    <section class="mobile-menu" id="mobile-menu">
+  <div class="container"></div>
+</section>
+
+
+    <main>
+      <!-- Loads the specified .html file -->
+      <section class="hero section" id="hero">
+  <div class="container">
+    <div class="hero-wrap">
+      <div class="hero-text-wrap">
+        <h1 class="hero-title">
+          Capture Your Love Story with Timeless Photography
+        </h1>
+        <p class="hero-text">
+          At Maria Kovalenko Photography, we specialize in capturing the genuine
+          emotions of your special day. Let us turn your unforgettable moments
+          into stunning memories that last a lifetime.
+        </p>
+      </div>
+      <a class="hero-link" href="#contacts">Book a session</a>
+    </div>
+  </div>
+</section>
+
+      <section class="about section" id="about">
+  <div class="container">
+    <div class="about-text-container">
+      <h2 class="about-title decor">
+        Meet Maria Kovalenko: Your Partner in Capturing Unforgettable Wedding
+        Moments
+      </h2>
+      <p class="about-text">
+        With years of experience in wedding photography, Maria specializes in
+        capturing genuine emotions and beautiful moments. Her unique approach
+        blends artistry with a personal touch, ensuring that each couple's story
+        is told through stunning imagery.
+      </p>
+    </div>
+    <picture>
+      <source
+        media="(min-width: 1440px)"
+        srcset="/js_128_Serhii-Onykiienko/assets/about-dt@1x-D3dNFu7k.jpg 1x, /js_128_Serhii-Onykiienko/assets/about-dt@2x-lfnc0gXa.jpg 2x"
+        type="image/jpeg"
+      />
+
+      <source
+        media="(min-width: 768px)"
+        srcset="/js_128_Serhii-Onykiienko/assets/about-tab@1x-CmGKa-A4.jpg 1x, /js_128_Serhii-Onykiienko/assets/about-tab@2x-D8cFlizZ.jpg 2x"
+        type="image/jpeg"
+      />
+
+      <img
+        class="about-img"
+        src="/js_128_Serhii-Onykiienko/assets/about-mob@1x-VjZyMENA.jpg"
+        srcset="/js_128_Serhii-Onykiienko/assets/about-mob@1x-VjZyMENA.jpg 1x, /js_128_Serhii-Onykiienko/assets/about-mob@2x-Cm32biBD.jpg 2x"
+        alt="Bride and groom walking together"
+        width="335"
+        height="273"
+        loading="lazy"
+        decoding="async"
+      />
+    </picture>
+  </div>
+</section>
+
+      <section class="benefits section" id="benefits">
+  <div class="container benefits-container">
+    <h2 class="benefits-title decor">
+      Capture Every Moment with Our Tailored Wedding Photography Packages
+    </h2>
+    <ul class="benefits-list">
+      <li class="benefits-item">
+        <article class="benefits-article">
+          <div class="benefits-icon-wrapper">
+            <svg class="benefits-icon" width="100" height="100" aria-hidden="true">
+              <use href="/js_128_Serhii-Onykiienko/assets/sprite-CGGGJTVo.svg#icon-glasses"></use>
+            </svg>
+          </div>
+          <h3 class="benefits-article-title">
+            Your Perfect Story: A Package Tailored for You.
+          </h3>
+          <p class="benefits-article-text">
+            Explore our collection of wedding packages, each designed to perfectly capture the uniqueness of your special day.
+          </p>
+        </article>
+      </li>
+      <li class="benefits-item">
+        <article class="benefits-article">
+          <div class="benefits-icon-wrapper">
+            <svg class="benefits-icon" width="100" height="100" aria-hidden="true">
+              <use href="/js_128_Serhii-Onykiienko/assets/sprite-CGGGJTVo.svg#icon-camera"></use>
+            </svg>
+          </div>
+          <h3 class="benefits-article-title">
+            From Dawn to Stars: Your Full Day in Frame.
+          </h3>
+          <p class="benefits-article-text">
+            Capture every emotion, from the morning preparations to the grand finale of your wedding celebration.
+          </p>
+        </article>
+      </li>
+      <li class="benefits-item">
+        <article class="benefits-article">
+          <div class="benefits-icon-wrapper">
+            <svg class="benefits-icon" width="100" height="100" aria-hidden="true">
+              <use href="/js_128_Serhii-Onykiienko/assets/sprite-CGGGJTVo.svg#icon-church"></use>
+            </svg>
+          </div>
+          <h3 class="benefits-article-title">
+            Precious Moments: Capturing Your Key Events.
+          </h3>
+          <p class="benefits-article-text">
+            Perfect for preserving the most important moments of your intimate ceremony or smaller celebration.
+          </p>
+        </article>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="feedbacks section" id="feedbacks">
+  <div class="container">
+    <div class="feedbacks-textual-wrapper">
+      <h2 class="feedbacks-title decor">Words from Our Wonderful Couples</h2>
+      <p class="feedbacks-text">
+        Read what the couples who entrusted us with their most precious memories
+        have to say.
+      </p>
+    </div>
+    <div class="swiper">
+      <ul class="feedbacks-content-list swiper-wrapper">
+        <li class="feedbacks-content-item">
+          <p class="feedbacks-content-comment">
+            "Maria is a true professional! She managed to capture every single
+            emotion of our wedding day. Looking through the photos, we get to
+            relive that special day all over again. Thank you for the incredible
+            memories!
+          </p>
+          <p class="feedbacks-content-names">Olena & David</p>
+        </li>
+      </ul>
+      <div class="feedbacks-content-button-container">
+        <!-- If we need pagination -->
+        <div class="custom-swiper-pagination-wrapper">
+          <div class="custom-swiper-pagination"></div>
+        </div>
+
+        <div class="feedbacks-content-button-wrapper">
+          <button
+            class="custom-swiper-button-prev feedbacks-content-button"
+            data-action="prev"
+          >
+            <svg width="24" height="24">
+              <use href="/js_128_Serhii-Onykiienko/assets/sprite-CGGGJTVo.svg#icon-left"></use>
+            </svg></button
+          ><button
+            class="custom-swiper-button-next feedbacks-content-button"
+            data-action="next"
+          >
+            <svg width="24" height="24">
+              <use href="/js_128_Serhii-Onykiienko/assets/sprite-CGGGJTVo.svg#icon-right"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="portfolio section" id="portfolio">
+  <div class="container">
+    <div class="decor">
+      <h2 class="portfolio-h2 h2" >Portfolio Highligts</h2>
+    </div>
+    <div class="portfolio-btns">
+      <ul class="portfolio-category-ul">
+        <li>
+          <button type="button" class="category-btn">All Photos</button>
+        </li>
+      </ul>
+    </div>
+    <!-- GALLERY  -->
+    <div class="gallery-div">
+      <span class="loader"></span>
+      <!-- gallery -->
+      <ul class="gallery">
+      </ul>
+    </div>
+    <div class="portfolio-status-div">
+      <label class="progress-label" for="loading"></label>
+      <progress class="loading" max="100" value="10"></progress>
+      <button type="click" class="show-more">Show more</button>
+    </div>
+  </div>
+</section>
+
+      <section class="faq section" id="faq">
+  <div class="container">
+    <div class="faq-content">
+      <div class="faq-title decor">
+        <h2 class="faq-heading">Frequently Asked Questions</h2>
+        <p class="faq-subtext">
+          Here I've gathered answers to the most popular questions to help you
+          plan your perfect day. If you can't find the information you're
+          looking for, please get in touch!
+        </p>
+      </div>
+
+      <ul class="faq-list">
+        <li class="faq-item">
+          <h3 class="faq-header">
+            <button type="button" class="faq-trigger">
+              <span class="faq-question">
+                How do we book our date and how far in advance should we do it?
+              </span>
+              <svg class="faq-icon" width="24" height="24" aria-hidden="true">
+                <use href="/js_128_Serhii-Onykiienko/assets/sprite-CGGGJTVo.svg#icon-add"></use>
+              </svg>
+            </button>
+          </h3>
+          <div class="faq-panel">
+            <p class="faq-answer">
+              It's best to book your date 6-12 months in advance, especially if
+              your wedding is during the popular season. To book your date,
+              simply write to me through the contact form. We'll arrange a
+              meeting, discuss all the details, sign a contract, and after the
+              retainer is paid, your date will be officially reserved for you.
+            </p>
+          </div>
+        </li>
+
+        <li class="faq-item">
+          <h3 class="faq-header">
+            <button type="button" class="faq-trigger">
+              <span class="faq-question">
+                We don't know how to pose and feel awkward in front of the
+                camera. Do you help with that?
+              </span>
+              <svg class="faq-icon" width="24" height="24" aria-hidden="true">
+                <use href="/js_128_Serhii-Onykiienko/assets/sprite-CGGGJTVo.svg#icon-add"></use>
+              </svg>
+            </button>
+          </h3>
+          <div class="faq-panel">
+            <p class="faq-answer">
+              Of course, and that's completely normal! My main goal is to create
+              a comfortable and relaxed atmosphere for you. I don't force you
+              into unnatural poses. Instead, I provide gentle guidance and
+              direction to capture your real emotions, smiles, and tender
+              glances. The most important thing is for you to be yourselves, and
+              I'll take care of the rest.
+            </p>
+          </div>
+        </li>
+
+        <li class="faq-item">
+          <h3 class="faq-header">
+            <button type="button" class="faq-trigger">
+              <span class="faq-question">
+                When will we receive our photos and how many will there be?
+              </span>
+              <svg class="faq-icon" width="24" height="24" aria-hidden="true">
+                <use href="/js_128_Serhii-Onykiienko/assets/sprite-CGGGJTVo.svg#icon-add"></use>
+              </svg>
+            </button>
+          </h3>
+          <div class="faq-panel">
+            <p class="faq-answer">
+              I understand how excited you are to see the results! You will
+              receive a small preview of the best photos (10-15 images) within
+              the first week after your wedding. The complete gallery of photos
+              will be delivered via a personal online gallery within 4-8 weeks.
+              For a full wedding day, you will receive 500+ carefully edited
+              images.
+            </p>
+          </div>
+        </li>
+
+        <li class="faq-item">
+          <h3 class="faq-header">
+            <button type="button" class="faq-trigger">
+              <span class="faq-question">
+                What is typically included in your wedding packages?
+              </span>
+              <svg class="faq-icon" width="24" height="24" aria-hidden="true">
+                <use href="/js_128_Serhii-Onykiienko/assets/sprite-CGGGJTVo.svg#icon-add"></use>
+              </svg>
+            </button>
+          </h3>
+          <div class="faq-panel">
+            <p class="faq-answer">
+              Each package includes my services for the agreed-upon time, a
+              detailed pre-wedding consultation, meticulous editing of all
+              photos, and access to a private online gallery where you can
+              download your images in high resolution. For detailed information
+              on all packages and pricing, please get in touch with me.
+            </p>
+          </div>
+        </li>
+
+        <li class="faq-item">
+          <h3 class="faq-header">
+            <button type="button" class="faq-trigger">
+              <span class="faq-question">
+                Do you travel for weddings outside of Berlin?
+              </span>
+              <svg class="faq-icon" width="24" height="24" aria-hidden="true">
+                <use href="/js_128_Serhii-Onykiienko/assets/sprite-CGGGJTVo.svg#icon-add"></use>
+              </svg>
+            </button>
+          </h3>
+          <div class="faq-panel">
+            <p class="faq-answer">
+              Yes, absolutely! I love to travel and discover new beautiful
+              locations for photoshoots. I would be happy to travel to any city
+              in Ukraine or even abroad to be a part of your celebration. Travel
+              terms and costs are discussed individually.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <section class="contact" id="contacts">
+  <div class="container contact__container">
+    <div class="contact__info decor">
+<!--      <svg class="contact__title_decor">
+        <use href="/img/sprite.svg#icon-decoration"></use>
+      </svg> -->
+      <h2 class="contact__title">Let's Tell Your Story</h2>
+
+      <p class="contact__text">
+        I can't wait to hear more about your wedding! Tell me about your plans,
+        and I'll be in touch to discuss how we can create magic together.
+      </p>
+
+      <ul class="contact-list">
+        <li class="contact-list__item">
+          <svg class="contact-list__icon">
+            <use href="/js_128_Serhii-Onykiienko/assets/sprite-CGGGJTVo.svg#icon-mail"></use>
+          </svg>
+
+          <a
+            href="mailto:info@mariakovalenko.com"
+            class="contact-list__link contact-form"
+          >
+            info@mariakovalenko.com
+          </a>
+        </li>
+
+        <li class="contact-list__item">
+          <svg class="contact-list__icon">
+            <use href="/js_128_Serhii-Onykiienko/assets/sprite-CGGGJTVo.svg#icon-phone"></use>
+          </svg>
+
+          <a href="tel:+405551234567" class="contact-list__link contact-form">
+            +40 (555) 123-4567
+          </a>
+        </li>
+
+        <li class="contact-list__item">
+          <svg class="contact-list__icon">
+            <use href="/js_128_Serhii-Onykiienko/assets/sprite-CGGGJTVo.svg#icon-location"></use>
+          </svg>
+
+          <address class="contact-list__address contact-form">
+            <a
+              href="https://www.google.com/maps/place/Raschdorffstra%C3%9Fe+2,+13409+Berlin-Bezirk+Reinickendorf,+%D0%93%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D0%B8%D1%8F/@52.5650588,13.3594928,15z/data=!4m6!3m5!1s0x47a853ca446de2a9:0xc962cacc3995edea!8m2!3d52.5679038!4d13.3628084!16s%2Fg%2F11q2n92wm5?hl=ru&entry=ttu&g_ep=EgoyMDI2MDYyOC4wIKXMDSoASAFQAw%3D%3D"
+              class="contact-list__link"
+              target="_blank"
+            >
+              Raschdorffstraße 2-26, 13409 Berlin, Germany
+            </a>
+          </address>
+        </li>
+      </ul>
+    </div>
+
+    <div class="contact__form-wrapper">
+      <form class="contact-form" id="contactForm" autocomplete="off">
+        <label class="contact-form__label">
+          <p>Name*</p>
+          <input
+            class="contact-form__input"
+            type="text"
+            name="name"
+            placeholder="Maria"
+            required
+          />
+        </label>
+
+        <label class="contact-form__label">
+          <p>Phone*</p>
+          <input
+            class="contact-form__input"
+            type="tel"
+            name="phone"
+            placeholder="+1 (202) 111 2323"
+            required
+          />
+        </label>
+
+        <label class="contact-form__label">
+          <p>Message</p>
+          <textarea
+            class="contact-form__textarea"
+            name="comment"
+            placeholder="Tell me a little about you and your special day. Don't forget to include your wedding date, venue, and what you're most excited about..."
+            rows="6"
+          ></textarea>
+        </label>
+
+        <button class="contact-form__button" type="submit">
+          <span class="contact-button-text"> Let's Talk </span>
+
+          <span class="contact-loader contact-hidden" id="loader"></span>
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+      <div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button type="button" class="modal-close-btn" data-modal-close aria-label="Close modal">
+      <svg class="modal-close-icon" width="24" height="24">
+        <use href="/js_128_Serhii-Onykiienko/assets/sprite-CGGGJTVo.svg#icon-close"></use>
+      </svg>
+    </button>
+
+    <h2 class="modal-title">Thank You for Your Inquiry!</h2>
+
+    <div class="modal-img-wrapper">
+      <picture>
+        <source media="(min-width: 1440px)" srcset="/js_128_Serhii-Onykiienko/assets/modal-dt@1x-DB4jpidT.jpg 1x, /js_128_Serhii-Onykiienko/assets/modal-dt@2x-IS4p0Bu0.jpg 2x" />
+        <source media="(min-width: 768px)" srcset="/js_128_Serhii-Onykiienko/assets/modal-dt@1x-DB4jpidT.jpg 1x, /js_128_Serhii-Onykiienko/assets/modal-dt@2x-IS4p0Bu0.jpg 2x" />
+        <source media="(max-width: 767px)" srcset="/js_128_Serhii-Onykiienko/assets/modal-mob@1x-Do-o-oTG.jpg 1x, /js_128_Serhii-Onykiienko/assets/modal-mob@2x-CT7lJTmk.jpg 2x" />
+        <img class="modal-img" src="/js_128_Serhii-Onykiienko/assets/modal-mob@1x-Do-o-oTG.jpg" alt="Wedding inquiry aesthetics" width="295"
+          height="207" loading="lazy" />
+      </picture>
+    </div>
+
+    <p class="modal-text">
+      I have received your message and I'm so excited about your interest! I
+      will get in touch with you within 24-48 hours to discuss the details of
+      your wedding day. In the meantime, feel free to browse my portfolio or
+      follow me on Instagram for more inspiration.
+    </p>
+  </div>
+</div>
+    </main>
+
+    <footer class="footer" id="footer">
+  <div class="container">
+    <div class="footer-wrapper">
+      <div class="footer-logo-wrap">
+        <a
+          class="footer-logo-link"
+          href="./index.html"
+          aria-label="Go to home section"
+          ><svg
+            class="footer-logo"
+            width="206"
+            height="161"
+            aria-hidden="true"
+            focusable="false"
+          >
+            <use
+              class="footer-logo-icon"
+              href="/js_128_Serhii-Onykiienko/assets/sprite-CGGGJTVo.svg#icon-company-logo"
+            ></use></svg
+        ></a>
+        <p class="footer-copy-text">
+          &copy; 2025 Maria Kovalenko Photography.<br />
+          All rights reserved.
+        </p>
+      </div>
+      <div class="footer-menu-wrap">
+        <p class="footer-menu-text">Menu</p>
+        <ul class="footer-menu-list">
+          <li class="footer-menu-item">
+            <a href="#hero" class="footer-menu-link">Home</a>
+          </li>
+          <li class="footer-menu-item">
+            <a href="#about" class="footer-menu-link">About Me</a>
+          </li>
+          <li class="footer-menu-item">
+            <a href="#benefits" class="footer-menu-link">Benefits</a>
+          </li>
+          <li class="footer-menu-item">
+            <a href="#portfolio" class="footer-menu-link">Portfolio</a>
+          </li>
+          <li class="footer-menu-item">
+            <a href="#faq" class="footer-menu-link">FAQ</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-soc-wrap">
+        <p class="footer-soc-title">Follow Me</p>
+        <ul class="footer-soc-list">
+          <li class="footer-soc-item">
+            <a
+              class="footer-soc-link"
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg
+                class="footer-soc-icon"
+                width="24"
+                height="24"
+                aria-hidden="true"
+                focusable="false"
+              >
+                <use href="/js_128_Serhii-Onykiienko/assets/sprite-CGGGJTVo.svg#icon-facebook"></use>
+              </svg>
+              Facebook</a
+            >
+          </li>
+          <li class="footer-soc-item">
+            <a
+              class="footer-soc-link"
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg
+                class="footer-soc-icon"
+                width="24"
+                height="24"
+                aria-hidden="true"
+                focusable="false"
+              >
+                <use href="/js_128_Serhii-Onykiienko/assets/sprite-CGGGJTVo.svg#icon-instagram"></use>
+              </svg>
+              Instagram</a
+            >
+          </li>
+          <li class="footer-soc-item">
+            <a
+              class="footer-soc-link"
+              href="https://x.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg
+                class="footer-soc-icon"
+                width="24"
+                height="24"
+                aria-hidden="true"
+                focusable="false"
+              >
+                <use href="/js_128_Serhii-Onykiienko/assets/sprite-CGGGJTVo.svg#icon-X"></use>
+              </svg>
+              X</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <button type="button" class="scroll-up scroll-up--hidden" aria-label="Scroll to top">
+  <svg class="scroll-up__icon" width="24" height="24">
+    <use href="/js_128_Serhii-Onykiienko/assets/sprite-CGGGJTVo.svg#icon-left"></use>
+  </svg>
+</button>
+
+
+  </body>
+</html>
